@@ -7,7 +7,6 @@ import queryClient from './src/api/queryClient';
 
 
 function App() {
- 
 
 
   return (
@@ -23,7 +22,7 @@ function App() {
 
 export default App;
 */
-
+/* q
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
@@ -56,3 +55,13 @@ export default function App() {
     </NavigationContainer>
   );
 }
+*/
+
+import React from 'react';
+import RootNavigator from './src/navigations/root/RootNavigator';
+
+const App = () => {
+  return <RootNavigator />;
+};
+
+export default App;
